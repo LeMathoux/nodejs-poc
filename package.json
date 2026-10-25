@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-poc",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "rolldown -c -w",
+    "build": "rolldown -c",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeMathoux/nodejs-poc.git"
+  },
+  "keywords": [],
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/LeMathoux/nodejs-poc/issues"
+  },
+  "homepage": "https://github.com/LeMathoux/nodejs-poc#readme",
+  "devDependencies": {
+    "@rollup/plugin-run": "^3.1.0",
+    "@types/node": "^26.6.5",
+    "rolldown": "^1.2.15",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
